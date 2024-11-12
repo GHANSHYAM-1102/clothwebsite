@@ -1,0 +1,209 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        function SignUp() {
+            let emaill = document.getElementById("email");
+        
+            if (emaill.value == "") {
+                alert('Sign Up Successfull!')
+                
+            }
+            else{
+                alert("Please Enter Email!")
+
+            } 
+        }
+    </script>
+</head>
+<!-- Header part of contact-us in header part we design logo , and other information of our website ...-->
+<body>
+    <section id="header">
+        <a href="#"><img src="D:\FSD Project\image\logo.png" class="logo" alt="Unavailable"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>       
+                <li><a  href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact us</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html">
+                <i class="far fa-shopping-bag"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="contact_first">
+ <!-- Shopping Image of Contact-US  portion-->
+        <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\about\banner.png" alt="unavailable">
+        <h2>#let's_talk</h2>
+        <p>Leave A Message.We love to hear from you!</p>
+       
+    </section>
+
+    <section id="contact_second" class="section-p1">
+        <div class="details">
+<!-- Location Details in Team -->
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today.</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>    <!-- Emoji of Team -->
+                    <p>Ghanshyam & Team sit amet.</p>
+                </li>
+                <li>
+                    <i class="far fa-envelope"></i>     <!-- Emoji of mail -->
+                    <p>Team123@gamil.com</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>   <!-- Emoji of phone -->
+                    <p>+91 70968 50314</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>    <!-- Emoji of clock -->
+                    <p>Monday to Saturday : 10:00 am to 8:00 pm</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+<!-- Location Fixed of Hostel if mobile data or wifi is on then show the location -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.179791391829!2d72.63575947457292!3d23.236543679024418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b4c136e7e89%3A0x3701e0438ea79670!2sSamras%20Boys%20Hostel%20Gandhinagar!5e0!3m2!1sen!2sin!4v1711647270563!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+            </iframe>
+        </div>
+    </section>
+
+    <section id="contact_third">
+        <form action="#">
+
+            <span>LEAVE A MESSAGE</span>
+            <h2>We Love To Hear You</h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <div class="btn-container">
+                <button class="btn" onclick="submithandler()">
+                    <a>Submit</a>
+                </button>
+            </div>
+            
+        </form>
+        <div class="people">   
+<!-- People name and their photos,their post ,numbers and e-mail_id -->
+            <div>
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\people\8.jpg" alt="unavailbale">
+                <p><span>Ghanshyam Sekhaliya</span> Senior Manager <br> Phone :+91 70968 50314 <br>Email:ghanshyamshekhaliya01@123@gmail.com</p>
+            </div>
+            <div>
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\people\9.jpg" alt="unavailbale">
+                <p><span>Samarth Ramanuj </span> CEO <br> Phone :+91 77788 74678 <br>Email:samarthramanuj03@123@gmail.com</p>
+            </div>
+            <div>
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\people\10.jpg" alt="unavailbale">
+                <p><span>Sagar Labana</span> Senior Manager <br> Phone :+91 85116 76820 <br>Email:sagarlabana02@123@gmail.com</p>
+            </div>
+            <div>
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\people\12.jpg" alt="unavailbale">
+                <p><span>Anmol Maheriya </span> Senior Manager <br> Phone :+91 70460 78049 <br>Email:anmolmaheriya04@123@gmail.com</p>
+            </div>
+            <div>
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\people\11.jpg" alt="unavailbale">
+                <p><span>Nikita Makwana </span> Senior Developer <br> Phone :+91 97231 70456 <br>Email:nikitamakvana05@123@gmail.com</p>
+            </div>
+        </div>
+    </section>
+<!-- Footer part of Conact US and Sign up for newsletter for Special offer ... -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign up for newsletter</h4>
+            <p>get E-mail updates about our latest shop and <span>special offer</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <div class="btn-container">
+                <button class="btn" id="email" onclick="SignUp()">
+                    <a>SignUp</a>
+                </button>
+            </div>
+            
+        </div>
+    </section>
+<!-- Our Address and Contact-No,timing details  and footer portion -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="D:\FSD Project\image\footerlogo.jpeg" alt="#" class="logoo">
+            <h4>Contact</h4>
+            <p> <strong>Address</strong>: Samaras Hostel ,Near Gujarat University ,Ahmedabad.</p>
+            <p> <strong>Phone:</strong>+91 70968 50314 </p>
+            <p> <strong>Hours :</strong> 10:00 - 10:00 , Mon-Sat  </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+<!-- icones of instagram and facebook ,etc. -->
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"><a href="https://www.instagram.com/" target="_blank"></a> </i>     
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+<!-- we create about us with diffrent style of font  -->
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <!-- <a href="#">Delivery information</a> -->
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+<!-- My Account Details -->
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <!-- <a href="#">My Wishlist</a> -->
+            <!-- <a href="#">Track my order</a> -->
+            <a href="#">Help</a>
+        </div>
+        <div class="col Install">
+<!-- Payment Method and Apps to Pay The Bill ... -->
+            <h4>Install app</h4>
+            <p>From App Store & Google play</p>
+            <div class="row">
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\app.jpg" alt="">
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateway</p>
+            <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\pay.png" alt="">
+        </div>
+<!-- copyright mate last portion.... -->
+        <div class="copyright">
+            <p>@2024, Thank You Very Much...</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function submithandler()
+        {
+            alert("Feedback was successfully Submited ..!!!")    
+        }
+    </script>
+    
+    
+    
+</body>
+
+</html>

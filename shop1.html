@@ -1,0 +1,210 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        function SignUp() {
+            let emaill = document.getElementById("email");
+        
+            if (emaill.value == "") {
+                alert('Sign Up Successfull!')
+                
+            }
+            else{
+                alert("Please Enter Email!")
+
+            } 
+        }
+    </script>
+</head>
+<!-- Header part of shop product in header part we inform to shop their product items or verity in our website ...-->
+
+<body>
+    <section id="header">
+        <a href="#"><img src="D:\FSD Project\image\logo.png" class="logo" alt="Unavailable"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  class="active" href="shop.html">Shop</a></li>       
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            
+            <a href="cart.html">
+                <i class="far fa-shopping-bag"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="main_shop">
+<!-- shop page picture and heading with text  -->
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\banner\b1.jpg" alt="#">
+                <h2>#stayhome</h2>
+                <p>Save more with coupons & up to 70% off!</p>
+    </section>
+
+    <section id="product" class="section-p1">
+        <div class="pro-container">
+<!-- if click shop then it can be move to subproduct page this line .. -->
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+<!-- verity of cloth and its brand name also definr on click then open subproductof shop 1 with their  Brand... -->
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\n1.jpg" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Light Shirts </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>$39</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\n2.jpg" alt="">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Slim Fit Striped shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h4>$48</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\n3.jpg" alt="">
+            <div class="des">
+                <span>Calvin Klein</span>
+                <h5>White Full Slive Shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>$64</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\n4.jpg" alt="">
+            <div class="des">
+                <span>Wragler</span>
+                <h5>Printed T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <h4>$27</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="pagination" class="section-p1">
+        <a href="shop.html"><i class="fal fa-long-arrow-alt-left"></i></a>
+        <a href="shop1.html">1</a>
+        <a href="shop2.html">2</a>
+        <a href="shop2.html"><i class="fal fa-long-arrow-alt-right"></i></a>
+    </section>
+                               
+    
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign up for newsletter</h4>
+            <p>get E-mail updates about our latest shop and <span>special offer</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <div class="btn-container">
+                <button class="btn" id="email" onclick="SignUp()">
+                    <a>SignUp</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <footer class="section-p1">
+<!-- Our Address and Contact-No,timing details  and footer portion -->
+        <div class="col">
+            <img src="D:\FSD Project\image\footerlogo.jpeg" alt="#" class="logoo">
+            <h4>Contact</h4>
+            <p> <strong>Address</strong>: Samaras Hostel ,Near Gujarat University ,Ahmedabad.</p>
+            <p> <strong>Phone:</strong>+91 70968 50314 </p>
+            <p> <strong>Hours :</strong> 10:00 - 10:00 , Mon-Sat  </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+<!-- icones of instagram and facebook ,etc. -->
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+<!-- we create about us with diffrent style of font  -->
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <!-- <a href="#">Delivery information</a> -->
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+<!-- My Account Details -->
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <!-- <a href="#">My Wishlist</a> -->
+            <!-- <a href="#">Track my order</a> -->
+            <a href="#">Help</a>
+        </div>
+        <div class="col Install">
+<!-- Payment Method and Apps to Pay The Bill ... -->
+            <h4>Install app</h4>
+            <p>From App Store & Google play</p>
+            <div class="row">
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\app.jpg" alt="">
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateway</p>
+            <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\pay.png" alt="">
+        </div>
+        <div class="copyright">
+<!-- copyright mate last portion.... -->
+            <p>@2024, Thank You Very Much...</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

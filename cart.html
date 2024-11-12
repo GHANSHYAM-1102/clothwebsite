@@ -1,0 +1,210 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        function SignUp() {
+            let emaill = document.getElementById("email");
+        
+            if (emaill.value == "") {
+                alert('Sign Up Successfull!')
+                
+            }
+            else{
+                alert("Please Enter Email!")
+
+            } 
+        }
+    </script>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="D:\FSD Project\image\logo.png" class="logo" alt="Unavailable"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>       
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact us</a></li>
+                <li id="lg-bag"><a class="active" href="#"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            
+            <a href="cart.html">
+                <i class="far fa-shopping-bag"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+
+    <section id="cart_first">
+        <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\about\banner.png" alt="unavailable">
+        <h2>#Cart</h2>
+        
+        <p>Add your coupon code % Save upto 70%!</p>
+       
+    </section>
+
+    <section id="cart_second" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Remove</th>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>
+                        <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\f1.jpg" alt="">
+                    </td>
+                    <td>
+                       Men's  T-Shirts
+                    </td>
+                    <td>
+                        $50.00
+                    </td>
+                    <td>
+                        <input type="number" value="0" min="0" max="10">
+                    </td>
+                    <td>
+                        $99.00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>
+                        <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\f2.jpg" alt="">
+                    </td>
+                    <td>
+                        Cartoon Astronaunt Shirts
+                    </td>
+                    <td>
+                        $45.00
+                    </td>
+                    <td>
+                        <input type="number" value="0" min="0" max="10">
+                    </td>
+                    <td>
+                        $270.00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>
+                        <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\products\f3.jpg" alt="">
+                    </td>
+                    <td>
+                        Cartoon Astronaunt Shirts
+                    </td>
+                    <td>
+                        $3.00
+                    </td>
+                    <td>
+                        <input type="number" value="0" min="0" max="10">
+                    </td>
+                    <td>
+                        $95.00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart_third" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button type="submit">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 336</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>free</td>
+                </tr>
+                <tr id="big">
+                    <td>Total</td>
+                    <td>$ 336</td>
+                </tr>
+            </table>
+            <button>Proceed TO Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="D:\FSD Project\image\footerlogo.jpeg" alt="#" class="logoo">
+            <h4>Contact</h4>
+            <p> <strong>Address</strong>: Samaras Hostel ,Near Gujarat University ,Ahmedabad.</p>
+            <p> <strong>Phone:</strong>+91 70968 50314  </p>
+            <p> <strong>Hours :</strong> 10:00 - 10:00 , Mon-Sat  </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <!-- <a href="#">Delivery information</a> -->
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <!-- <a href="#">My Wishlist</a> -->
+            <!-- <a href="#">Track my order</a> -->
+            <a href="#">Help</a>
+        </div>
+        <div class="col Install">
+            <h4>Install app</h4>
+            <p>From App Store & Google play</p>
+            <div class="row">
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\app.jpg" alt="">
+                <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateway</p>
+            <img src="D:\FSD Project\Build-and-Deploy-Ecommerce-Website-main\img\pay\pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>@2024, Thank You Very Much...</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
